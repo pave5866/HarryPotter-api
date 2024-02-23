@@ -12,3 +12,6 @@ KARAKTER DETAYLARI SS
 ![detaylıkarakter](https://github.com/pave5866/HarryPotter-api/assets/49350752/19b76a4a-7e05-453f-a60a-e2e839ee070b)
 
 HARRY POTTER APİ FRONT-END ARAYÜZ
+
+CANLIYA ALINMIŞ HALİNİN LİNKİ
+https://harrypotter-api-frontend.netlify.app/
