@@ -22,11 +22,14 @@ const Characters = () => {
       <div className="hp-characters">
         <h1>Harry Potter | Movie Characters</h1>
       </div>
-      <div className="Characters-container">
-        <ul>
+      <div>
+        <ul className="hp-characters-grid">
           {characters.slice(0, 25).map((character) => (
             <li key={character.id}>
-              <Link to={`/CharactersDetails/${character.id}`}>
+              <Link
+                className="Characters-container"
+                to={`/CharactersDetails/${character.id}`}
+              >
                 {character.name}
                 <div className="hp-image-container">
                   <img

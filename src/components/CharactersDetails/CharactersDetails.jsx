@@ -23,13 +23,14 @@ const CharactersDetails = () => {
           <Link to="/">Main-Page</Link>
         </h3>
       </div>
-      <div></div>
-      <div className="hp-details-characterss">
-        <h2>{characters.name}</h2>
-        <img src={characters.image} alt="characters" />
-        <p>{characters.house}</p>
-        <p>{characters.dateOfBirth}</p>
-        <p>{characters.ancestry}</p>
+      <div className="hp-details2">
+        <div className="hp-details-characterss">
+          <h2>{characters.name}</h2>
+          <img src={characters.image} alt="characters" />
+          <p>{characters.house}</p>
+          <p>{characters.dateOfBirth}</p>
+          <p>{characters.ancestry}</p>
+        </div>
       </div>
     </div>
   );

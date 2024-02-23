@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   list-style: none;
   text-decoration: none;
   font-family: "Harry Potter", sans-serif;
@@ -10,11 +10,12 @@
 }
 .Characters-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 48px;
   text-shadow: 5px 5px 5px yellowgreen;
-  padding: 25px;
+  /* padding: 25px; */
 }
 .hp-characters {
   display: flex;
@@ -53,4 +54,11 @@
   position: relative;
   left: 500px;
   margin: 50px;
+}
+.hp-characters-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 25px;
 }
