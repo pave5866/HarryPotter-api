@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Harry Potter", sans-serif;
+  color: rgb(121, 2, 2);
+  text-shadow: 5px 5px 5px orange;
+}
+.hp-tattoo{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: initial;
+}
+.anasayfah1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  margin-top: 25px;
+  text-shadow: 5px 5px 5px orangered;
+  border: 5px solid rgb(85, 3, 17);
+  box-shadow: 10px 5px 30px orange;
+  border-radius: 25px;
+  width: 100vh;
+  height: 40vh;
+  opacity: 0.6;
+  position: absolute;
+  left: 500px;
+  top: 50px;
+}
+.tikla-karaktergor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  padding: 25px;
+  color: #211951;
+  border-radius: 25px;
+  text-shadow: 5px 5px 5px orangered;
+  border: 4.5px solid rgb(85, 3, 17);
+  box-shadow: 5px 10px 30px orange;
+  position: absolute;
+  left: 700px;
+  top: 500px;
+  /* opacity: 0.5; */
+}

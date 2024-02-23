@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Harry Potter", sans-serif;
+  background-color: black;
+  color: white;
+  text-shadow: 5px 5px 5px yellowgreen;
+}
+.anasayfah3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  border: 5px solid rgb(85, 3, 17);
+  box-shadow: 10px 5px 30px orange;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 25px;
+}
+.hp-details-characterss {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  width: 50%;
+  /* height: 100%; */
+  border-radius: 25px;
+  border: 5px solid rgb(85, 3, 17);
+  box-shadow: 10px 5px 30px orange;
+  position: absolute;
+  left: 500px;
+  gap: 10px;
+  /* padding: 25px; */
+  /* margin: 50px; */
+}
